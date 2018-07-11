@@ -19,3 +19,6 @@ After you are done, just run:
 And all services will be reclaimed.
 
 # docker-compose-efk-master
+
+username: elastic
+password: changeme
