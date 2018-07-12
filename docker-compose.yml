@@ -4,9 +4,10 @@ services:
   fluentd:
     build: ./fluentd
 #    entrypoint: sleep 3600
+#    user: root
 #    image: docker-compose-efk-master_fluentd
-    volumes:
-      - ./fluentd/conf:/fluentd/etc
+#    volumes:
+#      - ./fluentd/conf:/fluentd/etc
     links:
       - "elasticsearch"
     ports:
