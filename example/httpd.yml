@@ -3,7 +3,7 @@ services:
   web:
     image: httpd:2.2.32
     ports:
-      - "8000:80"
+      - "8088:80"
     depends_on:
       - fluentd
     logging:
